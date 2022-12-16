@@ -1,0 +1,25 @@
+{
+  "pins": {
+    "SwiftFormat": {
+      "type": "GitRelease",
+      "repository": {
+        "type": "GitHub",
+        "owner": "nicklockwood",
+        "repo": "SwiftFormat"
+      },
+      "pre_releases": false,
+      "version_upper_bound": null,
+      "version": "0.50.6",
+      "revision": "da637c398c5d08896521b737f2868ddc2e7996ae",
+      "url": "https://api.github.com/repos/nicklockwood/SwiftFormat/tarball/0.50.6",
+      "hash": "1gd1gvfvy48qmgkrkim8y1llm171bb1imxrbzcqmwk8mjia21wy1"
+    },
+    "nixpkgs": {
+      "type": "Channel",
+      "name": "nixpkgs-unstable",
+      "url": "https://releases.nixos.org/nixpkgs/nixpkgs-23.05pre435215.fbcb61bd7eb/nixexprs.tar.xz",
+      "hash": "0xflpd0rrdr183g7b252s7iw3rgdmn5jlkfhpnbpqvhxq05l64p8"
+    }
+  },
+  "version": 3
+}

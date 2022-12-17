@@ -3,11 +3,11 @@
 import PackageDescription
 
 let package = Package(
-    name: "swift-foo",
+    name: "SwiftFoo",
     products: [
         .library(
-            name: "swift-foo",
-            targets: ["swift-foo"]
+            name: "SwiftFoo",
+            targets: ["SwiftFoo"]
         ),
     ],
     dependencies: [
@@ -16,12 +16,12 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "swift-foo",
+            name: "SwiftFoo",
             dependencies: []
         ),
         .testTarget(
             name: "QuickTests",
-            dependencies: ["swift-foo", "Quick", "Nimble"]
+            dependencies: ["SwiftFoo", "Quick", "Nimble"]
         ),
     ]
 )

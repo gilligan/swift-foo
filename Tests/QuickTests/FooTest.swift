@@ -16,6 +16,14 @@ class FooTest: QuickSpec {
                         expect(fileData).to(equal(["hello", ""]))
                     }
                 }
+                describe("composition") {
+                    it("composes two functions") {
+                        let inc = { $0 + 1 }
+                        let double = { $0 * 2 }
+                        let incThenDouble = inc >>> double
+                        expect(incThenDouble(2)).to(equal(6))
+                    }
+                }
             }
             describe("Day1") {
                 describe("part1") {
